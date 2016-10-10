@@ -11,8 +11,7 @@ You'll find a brief mathematical analysis in this [Jupyter Notebook]() of the Mo
 * download the Boost library and similarly make your compiler aware of its location
 
 ```unix
-g++    -c -g -I../../../../boost_1_49_0 -I../../.. -MMD -MP -MF build/Debug/GNU-MacOSX/_ext/1472/main_branching_CDF_trajs.o.d -o build/Debug/GNU-MacOSX/_ext/1472/main_branching_CDF_trajs.o ../main_branching_CDF_trajs.cpp
-mkdir -p dist/Debug/GNU-MacOSX
+g++ -I<path to boost> -I<path to mutation_accumulation> main_branching_CDF_trajs.cpp
 ```
 
 * navigate to the example sub-directory
