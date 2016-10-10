@@ -5,7 +5,7 @@ Templates are a feature of the C++ programming language that allows classes to o
 
 Example
 ============
-* download the repository and make sure it is called 'mutation_accumulation'
+* download the repository and rename it 'mutation_accumulation'
 * navigate to the example sub-directory
 * make your C++ compiler aware of the path of the mutation_accumulation directory 
 * compile main_branching_CDF_trajs.cpp
