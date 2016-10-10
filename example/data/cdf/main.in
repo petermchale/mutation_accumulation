@@ -1,0 +1,8 @@
+NN = 1e0, 0, 0, 0
+rr = 0.55
+uu = 1e-5, 1e-4, 1e-4 
+ss = 0.2
+time_span_path = 1000
+time_span_cdf = 1000
+eps = 0.03
+dd = 1.0
