@@ -11,7 +11,7 @@ Installation is easy because the `mutation_accumulation` library consists entire
 g++ -I<path to boost library> -I<path to mutation_accumulation library> main_branching_CDF_trajs.cpp
 ```
 * run the executable so generated in the `trajectories` and `cdf` sub-directories (you'll find that output has already been generated there for later use)
-* look at the brief mathematical analysis of the data showcased in this [Jupyter Notebook]() 
+* look at this [Jupyter Notebook](), which showcases a brief mathematical analysis of the data
 
 ###Template programming
 Templates are a feature of the C++ programming language that allows classes to operate with generic types. This allows a function or class to work on many different data types without being rewritten for each one. `main_branching_CDF_trajs.cpp`, shown below, provides an example of how templates can be used to put together a simulation object with the appropriate types for variables such as the number of stem cells and time. It also illustrates how templates may be used to define how the simulation should behave (e.g. how it should interpret the entries in the input file, and how it should gather statistics). 
