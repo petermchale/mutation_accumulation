@@ -8,6 +8,12 @@ Getting started
 * download the repository and rename it to `mutation_accumulation`
 * add the directory in which `mutation_accumulation` resides to the list of include directories that your C++ compiler searches
 * download the Boost library and similarly make your compiler aware of its location
+
+
+'''C++ 
+    typedef long long int population_type;
+'''
+
 * navigate to the example sub-directory
 * compile main_branching_CDF_trajs.cpp
 * run the executable in the example directory (you'll find pre-existing output in the data directory)
