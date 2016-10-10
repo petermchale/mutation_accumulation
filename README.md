@@ -6,7 +6,7 @@ Installation is easy because the `mutation_accumulation` library consists entire
 
 * download this repository
 * download the [Boost C++ library](http://www.boost.org/) 
-* navigate to the example directory of `mutation_accumulation` and execute the following command in the shell
+* navigate to the `example` directory of `mutation_accumulation` and execute the following command in the shell
 ```unix
 g++ -I<path to boost library> -I<path to mutation_accumulation library> main_branching_CDF_trajs.cpp
 ```
