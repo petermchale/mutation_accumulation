@@ -1,7 +1,7 @@
 # mutation_accumulation
 C++ template programming framework to perform Monte Carlo simulations of the accumulation of mutations in individual stem cells. 
 
-##Scientific use
+###Scientific use
 You'll find a brief mathematical analysis in this [Jupyter Notebook]() of the Monte Carlo simulation in the `example` directory. The  code was written primarily to produce the results reported in [this cancer systems biology paper](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003802). 
 
 
