@@ -16,6 +16,16 @@ g++ -I<path to boost library> -I<path to mutation_accumulation library> main_bra
 ###Template programming
 Templates are a feature of the C++ programming language that allows classes to operate with generic types. This allows a function or class to work on many different data types without being rewritten for each one. 
 ```C++
+#include <mutation_accumulation/simulation/calculate_histogram_trajs.h> 
+#include <mutation_accumulation/configuration/configuration/branching_discrete.h> 
+#include <mutation_accumulation/probability/notification_policy.h> 
+#include <mutation_accumulation/probability/cdf.h> 
+#include <mutation_accumulation/simulation/raw_data.h>
+
+/*************************************************************************/
+
+int main() {
+
     typedef long long int population_type;
     typedef monte_carlo::Branching_Discrete<population_type> Configuration_Policy;
 
@@ -23,6 +33,7 @@ Templates are a feature of the C++ programming language that allows classes to o
     typedef probability::Notify_NonNegative_BoundedAbove<time_type> Notification_Policy;
     typedef probability::CDF<Notification_Policy> Histogram_Policy;
 
-    monte_carlo::Calculate_Histogram_Trajs<Histogram_Policy, Configuration_Policy, monte_carlo::Raw_Data_Null,  monte_carlo::Read_NonHomeostasis_Policy>::implement();
+    monte_carlo::Calculate_Histogram_Trajs<Histogram_Policy, Configuration_Policy, monte_carlo::Raw_Data_Null, monte_carlo::Read_NonHomeostasis_Policy>::implement();
+}
 ```
 
