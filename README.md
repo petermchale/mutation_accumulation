@@ -8,8 +8,8 @@ C++ template library to perform Monte Carlo simulations of the accumulation of m
 ```unix
 g++ -I<path to boost library> -I<path to mutation_accumulation library> main_branching_CDF_trajs.cpp
 ```
-* run the executable in the `trajectories` and the `cdf` sub-directories (you'll find that output has already been generated and placed there for use in the Jupyter Notebook)
-* Look at the brief mathematical analysis showcased in this [Jupyter Notebook]() of the results of the Monte Carlo simulation
+* run the executable in the `trajectories` and the `cdf` sub-directories (you'll find that output has already been generated there for use in the Jupyter Notebook)
+* look at the brief mathematical analysis showcased in this [Jupyter Notebook]() of the data 
 
 ###Template programming
 Templates are a feature of the C++ programming language that allows classes to operate with generic types. This allows a function or class to work on many different data types without being rewritten for each one. 
