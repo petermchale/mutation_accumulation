@@ -1,12 +1,11 @@
 # mutation_accumulation
-C++ codebase to simulate the stochastic accumulation of mutations in individual stem cells. 
+C++ template programming framework to perform Monte Carlo simulations of the accumulation of mutations in individual stem cells. 
 
 ##Scientific use
 You'll find a brief mathematical analysis in this [Jupyter Notebook]() of the Monte Carlo simulation in the `example` directory. The  code was written primarily to produce the results reported in [this cancer systems biology paper](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003802). 
 
 
-Getting started
-============
+##Getting started
 * download the repository and rename it to `mutation_accumulation`
 * add the directory in which `mutation_accumulation` resides to the list of include directories that your C++ compiler searches
 * download the Boost library and similarly make your compiler aware of its location
@@ -17,8 +16,7 @@ Getting started
 * run plot_trajs.m in Matlab to see a time course tracking the number of wild-type, single-mutant, and double-mutant stem cell in a stochastic simulation prior to the appearance of the first triple-mutant stem cell
 * run plot_cdf.m in Matlab to see the cumulative probability that the first triple-mutant stem cell has arisen as a function of time (measured in units of the average time it takes a stem cell to divide)
 
-Template programming
-======
+##Template programming
 Templates are a feature of the C++ programming language that allows classes to operate with generic types. This allows a function or class to work on many different data types without being rewritten for each one. 
 ```C++
     typedef long long int population_type;
