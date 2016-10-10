@@ -4,7 +4,7 @@ C++ template library to perform Monte Carlo simulations of the accumulation of m
 ###Getting started
 Installation is easy because the `mutation_accumulation` library is header-only: it consists entirely of header files containing templates and inline functions, and requires no separately-compiled library binaries or special treatment when linking.
 
-* download this library
+* download this repository
 * download the [Boost C++ library](http://www.boost.org/) 
 * navigate to the example directory of `mutation_accumulation` and execute 
 ```unix
