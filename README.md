@@ -10,6 +10,13 @@ Getting started
 * download the Boost library and similarly make your compiler aware of its location
 ```C++
     typedef long long int population_type;
+    typedef monte_carlo::Branching_Discrete<population_type> Configuration_Policy;
+
+    typedef Configuration_Policy::time_t time_type;
+    typedef probability::Notify_NonNegative_BoundedAbove<time_type> Notification_Policy;
+    typedef probability::CDF<Notification_Policy> Histogram_Policy;
+
+    monte_carlo::Calculate_Histogram_Trajs<Histogram_Policy, Configuration_Policy, monte_carlo::Raw_Data_Null,  monte_carlo::Read_NonHomeostasis_Policy>::implement();
 ```
 
 * navigate to the example sub-directory
