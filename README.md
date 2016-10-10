@@ -2,6 +2,8 @@
 C++ template library to perform Monte Carlo simulations of the accumulation of mutations in individual stem cells.  `mutation_accumulation` was written primarily to produce the results reported in [this cancer systems biology paper](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003802). 
 
 ###Getting started
+Installation is easy because the `mutation_accumulation` library is header-only: it consists entirely of header files containing templates and inline functions, and requires no separately-compiled library binaries or special treatment when linking.
+
 * download this library
 * download the [Boost C++ library](http://www.boost.org/) 
 * navigate to the example directory of `mutation_accumulation` and execute 
