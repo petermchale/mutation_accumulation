@@ -10,7 +10,7 @@ Installation is easy because the `mutation_accumulation` library consists entire
 ```unix
 g++ -I<path to boost library> -I<path to mutation_accumulation library> main_branching_CDF_trajs.cpp
 ```
-* run the executable in the `trajectories` and the `cdf` sub-directories (you'll find that output has already been generated there for use in the Jupyter Notebook)
+* run the executable so generated in the `trajectories` and the `cdf` sub-directories (you'll find that output has already been generated there for use in the Jupyter Notebook)
 * look at the brief mathematical analysis showcased in this [Jupyter Notebook]() of the data 
 
 ###Template programming
