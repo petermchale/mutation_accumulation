@@ -14,7 +14,7 @@ g++ -I<path to boost library> -I<path to mutation_accumulation library> main_bra
 * look at this [Jupyter Notebook](), which showcases a brief mathematical analysis of the data
 
 ###Template programming
-C++ templates allow classes to operate with many different data types without being rewritten for each one. `main_branching_CDF_trajs.cpp`, shown below, provides an example of how templates can be used to put together a simulation object with the appropriate types for variables such as the number of stem cells and time. It also illustrates how templates may be used to define how the simulation should behave; in this case, how it should interpret the entries in the input file, and how it should gather statistics. 
+C++ templates allow classes to operate with many different data types without being rewritten for each one. The code shown below (taken from the `example` directory) provides an example of how templates can be used to put together a simulation object with the appropriate types for variables such as the number of stem cells and time. It also illustrates how templates may be used to define how the simulation should behave; in this case, how it should interpret the entries in the input file, and how it should gather statistics. 
 ```C++
 #include <mutation_accumulation/simulation/calculate_histogram_trajs.h> 
 #include <mutation_accumulation/configuration/configuration/branching_discrete.h> 
