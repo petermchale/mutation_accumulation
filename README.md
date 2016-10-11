@@ -11,7 +11,7 @@ Installation is easy because the `mutation_accumulation` library consists entire
 g++ -I<path to boost library> -I<path to mutation_accumulation library> main_branching_CDF_trajs.cpp
 ```
 * run the executable so generated in the `trajectories` and `cdf` sub-directories (you'll find that output has already been generated there for later use)
-* look at this [Jupyter Notebook](), which showcases a brief mathematical analysis of the data
+* look at this [Jupyter Notebook](http://nbviewer.jupyter.org/github/petermchale/mutation_accumulation/blob/master/example/analysis.ipynb), which showcases a brief mathematical analysis of the data
 
 ###Template programming
 C++ templates allow classes to operate with many different data types without being rewritten for each one. The example below (taken from the `example` directory) shows how templates can be used to easily code up a particular mathematical model with the appropriate types for variables such as the number of stem cells and time. It also illustrates how templates may be used to define how the simulation should interpret the entries in the input file, and how it should gather statistics. 
