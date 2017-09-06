@@ -1,5 +1,5 @@
 # mutation_accumulation
-C++ template library to perform performance-critical Monte Carlo simulations of the accumulation of mutations in individual stem cells.  `mutation_accumulation` was written primarily to produce the results reported in [this cancer systems biology paper](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003802). Includes implementations of Scott Meyers' programming tips, as outlined in "Effective C++: 55 Specific Ways to Improve Your Programs and Designs" (3rd edition). 
+C++ template library to perform performance-critical Monte Carlo simulations of the accumulation of mutations in individual stem cells.  `mutation_accumulation` was written primarily to produce the results reported in [this cancer systems biology paper](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003802). Includes implementations of Scott Meyers' programming tips, as outlined in [Effective C++: 55 Specific Ways to Improve Your Programs and Designs (3rd edition)](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876). 
 
 ### Getting started
 Installation is easy because the `mutation_accumulation` library consists entirely of header files, requiring no separately-compiled library binaries or special treatment when linking.
