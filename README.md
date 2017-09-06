@@ -43,4 +43,6 @@ int main() {
                                            monte_carlo::Read_NonHomeostasis_Policy>::implement();
 }
 ```
+<img src="images/Slide2.png" width="600">
+<img src="images/Slide3.png" width="600">
 
