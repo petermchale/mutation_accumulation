@@ -17,7 +17,7 @@ g++ -I<path to boost library> -I<path to mutation_accumulation library> main_bra
 C++ templates allow classes to operate with many different data types without being rewritten for each one: 
 ![](images/Slide1.png){:height="50%" width="50%"}
 
-<img src="images/Slide1.png" width="100">
+<img src="images/Slide1.png" width="500">
 
 The example below (taken from the `example` directory) shows how templates can be used to easily code up a particular mathematical model with the appropriate types for variables such as the number of stem cells and time. It also illustrates how templates may be used to define how the simulation should interpret the entries in the input file, and how it should gather statistics. 
 ```C++
