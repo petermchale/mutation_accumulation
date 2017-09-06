@@ -13,7 +13,7 @@ g++ -I<path to boost library> -I<path to mutation_accumulation library> main_bra
 * run the executable so generated in the `trajectories` and `cdf` sub-directories (you'll find that output has already been generated there for later use)
 * look at this [Jupyter Notebook](http://nbviewer.jupyter.org/github/petermchale/mutation_accumulation/blob/master/example/analysis.ipynb), which showcases a brief mathematical analysis of the data
 
-### Template programming
+### Templates enable one to combine modules of code
 C++ templates allow classes to operate with many different data types without being rewritten for each one: 
 
 <img src="images/Slide1.png" width="600">
