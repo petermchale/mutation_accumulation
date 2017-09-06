@@ -15,7 +15,6 @@ g++ -I<path to boost library> -I<path to mutation_accumulation library> main_bra
 
 ### Template programming
 C++ templates allow classes to operate with many different data types without being rewritten for each one: 
-![](images/Slide1.png){:height="50%" width="50%"}
 
 <img src="images/Slide1.png" width="700">
 
