@@ -43,6 +43,8 @@ int main() {
                                            monte_carlo::Read_NonHomeostasis_Policy>::implement();
 }
 ```
+### Traits as a means to provide additional information about types
+
 <img src="images/Slide2.png" width="600">
 <img src="images/Slide3.png" width="600">
 
