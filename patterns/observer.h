@@ -18,7 +18,7 @@ namespace patterns {
     
     /**
      * see Item 6 for use of boost::noncopyable\n
-     * private inheritance means is-implemented-in-terms-of (Item 40)\n
+     * private inheritance means is-implemented-in-terms-of (Item 39)\n
      * C++ guarantees that the ctor and dtor of Observer and Subject call the ctor and dtor of boost::noncopyable (Item 30)
      */
 
