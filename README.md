@@ -38,7 +38,9 @@ int main() {
     typedef probability::CDF<Notification_Policy> Histogram_Policy;
 
     monte_carlo::Calculate_Histogram_Trajs<Histogram_Policy, 
-                                           Configuration_Policy, monte_carlo::Raw_Data_Null, monte_carlo::Read_NonHomeostasis_Policy>::implement();
+                                           Configuration_Policy, 
+                                           monte_carlo::Raw_Data_Null, 
+                                           monte_carlo::Read_NonHomeostasis_Policy>::implement();
 }
 ```
 
