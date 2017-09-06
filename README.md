@@ -43,7 +43,7 @@ int main() {
                                            monte_carlo::Read_NonHomeostasis_Policy>::implement();
 }
 ```
-### Traits carry type-information used to determine implementation details
+### Traits carry type-information used to determine implementation details (Item 47 of Meyers' book)
 
 <img src="images/Slide2.png" width="600">
 <img src="images/Slide3.png" width="600">
